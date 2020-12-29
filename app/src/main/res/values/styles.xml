@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="MyThemeOverlay_Toolbar2" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+
+        <!-- This attributes is used by navigation icon and overflow icon -->
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+    <style name="Theme.MyFancyTheme" parent="android:Theme.Holo">
+        <item name="android:homeAsUpIndicator">@color/white</item>
+    </style>
+
+</resources>
